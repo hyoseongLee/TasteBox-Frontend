@@ -1,5 +1,4 @@
 # TasteBox Frontend
-
 ---
 
 ## 📚 프로젝트 개요
@@ -29,7 +28,6 @@ TasteBox Backend에서 제공하는 API와 연동하여 인증, 콘텐츠 탐색
 - 컬렉션 수정 및 삭제 기능
 
 ---
-
 ## 🛠 기술 스택
 - 언어 & 프레임워크: React, TypeScript
 
@@ -46,7 +44,6 @@ TasteBox Backend에서 제공하는 API와 연동하여 인증, 콘텐츠 탐색
 - 코드 품질: Biome, Prettier, Husky, lint-staged, commitlint
 ​
 ---
-
 ## 🧱 아키텍처: Feature-Sliced Design (FSD)
 TasteBox Frontend는 Feature-Sliced Design(FSD) 아키텍처를 기반으로 폴더 구조를 설계했습니다.
 
@@ -65,7 +62,7 @@ src/
 
 widgets/ 내부는 common, contents, user 등 도메인/역할별 슬라이스로 구성되며, 여러 features와 entities를 조합해 실제 화면에 가까운 UI 블록을 만듭니다.
 ​
-
+---
 ## ⚙️ 환경변수 설정
 .env 파일은 저장소에 커밋하지 않으며, .env.example을 복사하여 사용합니다.
 프로젝트 설정에 맞게 실제 키 이름을 조정해서 사용하세요.
@@ -110,7 +107,6 @@ KAKAO_CLIENT_ID=
 KAKAO_CALLBACK_URL=
 ```
 ---
-
 ## 🚀 설치 및 실행
 1. **레포지토리 클론**
 git clone https://github.com/StepUp2025/TasteBox-Frontend.git
@@ -128,7 +124,6 @@ npm run dev
 로컬 개발 서버는 Vite 기본 포트(예: http://localhost:5173)에서 실행됩니다.
 ​
 ---
-
 ## 🧑‍💻 협업 및 개발 환경 가이드
 - **코드 포맷팅/린팅**
 npm run format으로 전체 코드 자동 정렬(기존 작업 중인 파일도 포함)
