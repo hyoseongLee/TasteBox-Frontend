@@ -45,6 +45,7 @@ TasteBox Backend에서 제공하는 API와 연동하여 인증, 콘텐츠 탐색
 ​
 ---
 ## 🧱 아키텍처: Feature-Sliced Design (FSD)
+
 TasteBox Frontend는 Feature-Sliced Design(FSD) 아키텍처를 기반으로 폴더 구조를 설계했습니다.
 
 ```​
@@ -59,8 +60,8 @@ src/
 ```
 
 상위 레이어(app, pages, widgets)는 하위 레이어(features, entities, shared)에만 의존하도록 설계하여 결합도를 낮춥니다.
-
 widgets/ 내부는 common, contents, user 등 도메인/역할별 슬라이스로 구성되며, 여러 features와 entities를 조합해 실제 화면에 가까운 UI 블록을 만듭니다.
+
 ​
 ---
 ## ⚙️ 환경변수 설정
