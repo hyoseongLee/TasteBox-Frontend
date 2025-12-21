@@ -1,5 +1,7 @@
 ## TasteBox Frontend
+
 ### 📚 프로젝트 개요
+
 TasteBox Frontend는 React + TypeScript 기반의 영화·TV 콘텐츠 추천 서비스 사용자 화면입니다.
 TasteBox Backend에서 제공하는 API와 연동하여 인증, 콘텐츠 탐색, 개인화 기능을 제공합니다.
 ​
