@@ -1,12 +1,15 @@
-## TasteBox Frontend
+# TasteBox Frontend
 
-### 📚 프로젝트 개요
+---
+
+## 📚 프로젝트 개요
 
 TasteBox Frontend는 React + TypeScript 기반의 영화·TV 콘텐츠 추천 서비스 사용자 화면입니다.
 TasteBox Backend에서 제공하는 API와 연동하여 인증, 콘텐츠 탐색, 개인화 기능을 제공합니다.
+
 ​
 --- 
-### ✨ 주요 기능
+## ✨ 주요 기능
 - Google / Kakao 소셜 로그인 연동
 
 - 영화·TV 콘텐츠 목록 및 상세 조회
@@ -67,10 +70,10 @@ widgets/ 내부는 common, contents, user 등 도메인/역할별 슬라이스�
 .env 파일은 저장소에 커밋하지 않으며, .env.example을 복사하여 사용합니다.
 프로젝트 설정에 맞게 실제 키 이름을 조정해서 사용하세요.
 ​
-# API 서버
+### API 서버
 VITE_API_URL=                 # 백엔드 API base URL
 
-# OAuth
+### OAuth
 ```
 # MySQL 환경변수
 MYSQL_DATABASE=
@@ -109,24 +112,24 @@ KAKAO_CALLBACK_URL=
 ---
 
 ## 🚀 설치 및 실행
-#### 1. 레포지토리 클론
+1. **레포지토리 클론**
 git clone https://github.com/StepUp2025/TasteBox-Frontend.git
 cd tastebox-frontend
 
-#### 2. 의존성 설치
+2. **의존성 설치**
 npm install
 
-#### 3. 환경변수 파일 생성
+3. **환경변수 파일 생성**
 cp .env.example .env
 .env 파일에 실제 값 입력
 
-#### 4. 개발 서버 실행
+4. **개발 서버 실행**
 npm run dev
 로컬 개발 서버는 Vite 기본 포트(예: http://localhost:5173)에서 실행됩니다.
 ​
 ---
 
-### 🧑‍💻 협업 및 개발 환경 가이드
+## 🧑‍💻 협업 및 개발 환경 가이드
 - **코드 포맷팅/린팅**
 npm run format으로 전체 코드 자동 정렬(기존 작업 중인 파일도 포함)
 마크다운 파일은 Prettier로, 나머지는 Biome으로 포맷팅
